@@ -3,6 +3,8 @@
 A responsive, dark-themed static portfolio highlighting Priyam Anand's backend,
 cloud, and AI engineering experience and the ZettaPulse contributors.
 
+**Live portfolio:** <https://zettapulse.github.io/static_portfolio/>
+
 ## Features
 
 - Personal introduction and career highlights
@@ -25,7 +27,15 @@ Then open <http://localhost:8000>.
 You can also open `index.html` directly, though a local web server more closely
 matches static hosting behavior.
 
-## Deploy to Vercel
+## Deployment
+
+The site is deployed with GitHub Pages:
+<https://zettapulse.github.io/static_portfolio/>.
+
+To publish updates, push changes to the repository's `main` branch and ensure
+GitHub Pages is configured to deploy from the repository root.
+
+### Optional: Deploy to Vercel
 
 Import the GitHub repository into Vercel. This repository's root contains the
 site files, so use the default root directory and configure:
