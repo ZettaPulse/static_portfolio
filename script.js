@@ -1,9 +1,6 @@
 const progressBar = document.querySelector(".scroll-progress");
 const menuToggle = document.querySelector(".menu-toggle");
 const navigation = document.querySelector(".primary-nav");
-const year = document.querySelector("#year");
-
-year.textContent = new Date().getFullYear();
 
 function updateScrollProgress() {
   const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
